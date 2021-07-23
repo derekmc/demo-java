@@ -1,2 +1,4 @@
+echo
+echo "build"
 mkdir -p build
-javac src/Demo.java -d build
+javac src/*.java -d build && tree
